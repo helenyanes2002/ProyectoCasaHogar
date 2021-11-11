@@ -1,0 +1,36 @@
+.fuente{
+    font-family: 'Gochi Hand', cursive;
+}
+
+.fuente2{
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.fondoPrincipal{
+    background-color: #07A1E1 !important;
+}
+
+.boton{
+    background-color:#07A1E1 !important;
+    color:white !important;
+}
+
+.fondoDos{
+     background-color: #e9e9e9;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.3);
+}
+
+.fondoAdopcion{
+    -webkit-filter: grayscale(100%);
+    background-image: url('../img/adopcion2.jpg');
+    background-attachment: fixed;
+    height: 450px;
+    filter: grayscale(100%);
+}
